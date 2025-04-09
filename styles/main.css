@@ -50,6 +50,19 @@ a {
     text-decoration: none;
 }
 
+.button {
+    background: transparent;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.button:hover {
+    background: white;
+    color: rgb(0, 100, 230);
+}
+
 nav {
     display: flex;
     justify-content: flex-start;
@@ -77,7 +90,7 @@ nav a:hover {
     flex-direction: column;
 }
 
-.hero, .introduction, .reviews, .projects {
+.hero, .introduction, .reviews, .projects, .faq {
     width: min(100%, 75rem);
     margin-bottom: 5rem;
 }
