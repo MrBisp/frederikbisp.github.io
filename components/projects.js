@@ -11,8 +11,8 @@ const projects = [
     },
     {
         name: "Hungry Homies",
-        description: "Hungry Homies is a hobby project I worked on in late 2024.<br/><br/><b>The challenge:</b> I never trust Google\'s reviews. But what I do trust is my friends. So I wanted to create an app that you can pull out whenever you want to go to a café, restaurant or bar that shows your friends\' reviews.   ",
-        embed: "<img class='project-image' src='img/hero-with-text.png' alt='Project-Employee matching' />"
+        description: "<a href='https://github.com/MrBisp/Hungry-Homies' target='_blank'>Hungry Homies</a> is a hobby project I worked on in late 2024.<br/><br/><b>The challenge:</b> I never trust Google\'s reviews. But what I do trust is my friends. So I wanted to create an app that you can pull out whenever you want to go to a café, restaurant or bar that shows your friends\' reviews. <br/><br/><b>The solution:</b> I created a simple mobile-first website that allows you to add friends, add reviews and see your friends\' reviews. It is built with Next.js and Supabase. I did use a boilerplate called <a href='https://shipfa.st' target='_blank'>Shipfast</a> to get started, which is a really nice boilerplate for Next.js, that makes it super easy to handle authentication. <br/><br/><b>The result:</b> My friends loved the idea, and made an account. But there is a serious cold start problem like any other platform. Nobody wanted to post reviews because nobody else was. So even though I tried to get it started, the app never took off. <br/><br/><b>Learnings:</b> It was not my first full-stack application, but nice to get some repetition. I honestly learned more about the business side of things rather than coding. Interestingly, the number one complaint I got was that the map itself looked to boring, so I went down the rabbit hole of how to customize a map, which goes much deeper than you would think.",
+        embed: "<img class='project-image-full' src='img/hungry-homies.png' alt='Hungry Homies' />"
     }
 ]
 // TODO: Add more awesome projects after joining 37signals ;)

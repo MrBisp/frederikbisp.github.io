@@ -51,7 +51,6 @@ ul {
 
 a {
     color: inherit;
-    text-decoration: none;
 }
 
 .button {
@@ -94,7 +93,7 @@ nav a:hover {
     flex-direction: column;
 }
 
-.hero, .introduction, .reviews, .projects, .faq {
+.hero, .introduction, .reviews, .projects, .faq, .video-section, .why-hire-me {
     width: min(100%, 75rem);
     margin-bottom: 5rem;
 }
@@ -132,6 +131,13 @@ nav a:hover {
 .no-bullshit {
     font-family: 'Libre Baskerville Bold';
     font-size: 1.2rem;
+}
+
+.video-section video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 5rem;
 }
 
 .reviews {
@@ -218,6 +224,12 @@ nav a:hover {
     cursor: pointer;
     object-fit: cover;
 }
+.project-image-full {
+    width: 100%;
+    display: block;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+    border-radius: var(--border-radius-default);
+}
 .project-image.active {
     scale: 1.02;
     opacity: 1;
@@ -238,6 +250,28 @@ nav a:hover {
 }
 
 
+.why-hire-me {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.why-hire-me h2 {
+    width: 100%;
+}
+
+.why-hire-me-content {
+    width: calc(70% - 1rem);
+}
+.why-hire-me-image {
+    width: 30%;
+}
+.why-hire-me-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /* Mobile design */
 @media (max-width: 768px) {

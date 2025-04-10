@@ -14,6 +14,10 @@ const faq = [
     {
         question: "How did you make this website?",
         answer: "The website is on <a href='hhttps://github.com/MrBisp/frederikbisp.github.io' target='_blank'>Github</a>. I have been focusing on making it as fast and simple as possible, so decided not to use any frameworks. It's simply HTML, CSS and JavaScript. I have made a few components to make it easier to read and write, but it just uses vanilla JS and HTML5. "
+    },
+    {
+        question: "What is the best lesson you have learned from 37signals?",
+        answer: "Fixed time, variable scope. As a product manager I really saw how scope creep happens. My old boss used to keep asking for more and more features and then complained that we were not delivering on time. It ended when I started being really strict about having a fixed time, and then only being flexible on the scope."
     }
 ]
 
