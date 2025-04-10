@@ -13,7 +13,7 @@ const faq = [
     },
     {
         question: "How did you make this website?",
-        answer: "The website is on Github, so you can see the code here: <a href='https://github.com/FrederikBisp/37signals-application' target='_blank'>https://github.com/FrederikBisp/37signals-application</a>. I have been focusing on making it as fast and simple as possible, so decided not to use any frameworks. It's simply HTML, CSS and JavaScript. I have made a few components to make it easier to read and write, but it just uses vanilla JS and HTML5. "
+        answer: "The website is on <a href='hhttps://github.com/MrBisp/frederikbisp.github.io' target='_blank'>Github</a>. I have been focusing on making it as fast and simple as possible, so decided not to use any frameworks. It's simply HTML, CSS and JavaScript. I have made a few components to make it easier to read and write, but it just uses vanilla JS and HTML5. "
     }
 ]
 

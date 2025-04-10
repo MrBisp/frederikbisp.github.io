@@ -1,3 +1,5 @@
+// No bloated frameworks, just vanilla JS and HTML5
+
 import { NavBar } from './navbar.js';
 import { Reviews } from './reviews.js';
 import { Projects } from './projects.js';
