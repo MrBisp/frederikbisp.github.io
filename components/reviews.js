@@ -8,13 +8,13 @@ const reviews = [
     {
         name: "Jacob Schrøder",
         link: "https://www.linkedin.com/in/jacob-schroeder96/",
-        review: "I had the pleasure of working with Frederik, our Product Manager, for 5 years, and he consistently impressed me with his ability to turn data into valuable insights and actionable strategies. <span class='review-highlight'>His talent for bridging the gap between tech and business made him an essential part of our team.</span>",
+        review: "[...] I had the pleasure of working with Frederik, our Product Manager, for 5 years, and he consistently impressed me with his ability to turn data into valuable insights and actionable strategies. <span class='review-highlight'>His talent for bridging the gap between tech and business made him an essential part of our team.</span> [...]",
         image: "img/reviews/jacob.jpg"
     },
     {
         name: "Veton Hasani",
         link: "https://www.linkedin.com/in/veton-hasani-46a2a3129/",
-        review: "He has a deep understanding of both the technical and business sides of a project. Frederik\’s ability to prioritize tasks, define clear goals, and provide valuable insights ensured that our team stayed aligned and productive. <span class='review-highlight'>Frederik’s communication skills and attention to detail made managing complex tasks easier.</span> His approachable nature and problem-solving mindset created a supportive and efficient work environment.",
+        review: "[...] He has a deep understanding of both the technical and business sides of a project. Frederik's ability to prioritize tasks, define clear goals, and provide valuable insights ensured that our team stayed aligned and productive. <span class='review-highlight'>Frederik's communication skills and attention to detail made managing complex tasks easier.</span> His approachable nature and problem-solving mindset created a supportive and efficient work environment. [...]",
         image: "img/reviews/veton.jpg"
     }
 
