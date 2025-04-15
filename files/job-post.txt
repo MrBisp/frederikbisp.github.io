@@ -1,0 +1,62 @@
+ is hiring a Junior programmer. We're accepting applications until Wednesday, April 23rd at 12:00 PM CST. The salary is $145,849.
+
+We're a small team working on ,  and its , , and new greenfield products at 37signals. Just ten Ruby programmers total, doing all this product work plus a steady stream of new open source frameworks and tools.
+
+Everyone says that they only "hire the best", but by definition, most of them must be full of it. Less because they're lying, more because most companies just can't discern quality. That's what happens at feature factories: endless Jira tickets flow from non-technical product managers, and shipping something, anything against that backlog is all that matters.
+
+That's not how we work at 37signals. If you're new to the field and want to join a company that values beautiful code, making our own tools, and compressing complexity, while working next to incredibly talented people who thrive on craftsmanship and care of code, then keep reading.
+
+We're looking for someone who's new to professional programming – no more than 3 years of work experience. Maybe you have experience with modern  or maybe with similar languages like Python, PHP, or JavaScript. Maybe you've worked with  and  or maybe you've worked with React. It doesn't really matter where: It could be as a junior programmer at another product company, it could be in school, on a personal project, or through contributions to existing open source codebases.
+
+We're looking for passionate, curious, bright coders who enjoy diving into new technologies and new concepts and who are eager to start their career on this team. You'll build your skills while learning how we build products. The right person will  into a Mid level role within a few years, and Senior level after that.
+
+This role is specifically for product work. So you could be working alongside a designer on adding new features to Basecamp and HEY one cycle, then working on a brand new product in the next. You'll also spend time addressing issues to make sure our apps are robust and our codebase is weed free.
+
+We don't have dedicated managers on our programming team. The day-to-day supervision of junior team members is done by senior programmers serving in a mentorship capacity. You’ll get plenty of support and guidance from your mentor and the rest of the team, but no one will be telling you how to spend every minute of every day. Everyone at 37signals is a 
+
+, so it’ll be up to you to make sure you’re making forward progress and looking out for areas where you're needed and can make an impact.
+
+Here are some real examples of the work the product team has done lately:
+
+    Collaborating with a designer to create a 
+
+    in Basecamp.
+    Building a system to export iCalendar feeds for calendar events.
+    Creating a Ruby library to parse natural expressions into dates.
+    Working with a designer to add more recurrence options to HEY Calendar.
+    Investigating why a HEY screen presents a jumpy scroll when navigating to it.
+    Creating an API for Campfire that customers can use to build their own chatbots.
+    Designing a Ruby gem that brings easy Web Push notification support to Rails.
+
+This is a remote job, but we're only looking for people based in the Americas or Europe to ensure your work day overlaps with our existing team.
+
+Since this is a remote job, you must be an excellent writer of code and of prose. We write a lot at 37signals — we write for our products, we write to our customers, and most importantly, we write as our primary way of communicating internally. Clear and effective communication is essential to being successful at 37signals.
+
+We respect everyone's right to participate in political expression and activism, but avoid having political debates on our internal communication systems. 37signals as a company also does not weigh in on politics publicly, outside of topics directly related to our business. You should be at peace with both of these stances.
+
+Pay & Benefits
+37signals pays in the top 10% of the industry based on San Francisco rates. Same position, same pay, no matter where you live. The salary for Junior Programmers is $145,849. Applicants from outside the US will be offered a contractor role with comparable terms and at the same rate of pay as our US-based employees.
+
+Our 
+ support a life well-lived away from work. We  31 days off per year, plus another 6-weeks every third year. We work  from May 1 - August 31. After 2 years with the company, you'll be eligible for our . In 2025, the average bonus was 41% of base salary, with top payouts for our longest tenured employees in the six figures.
+
+The most cherished benefit amongst current staff is that their days and their work are their own to manage. Even at the junior level, you'll be quickly trusted to work on things that matter and that have great impact on our products and company.
+
+How to Apply
+Please submit an application with a resumé and a cover letter that tells us about yourself, what you can bring to 37signals, and 37signals’ role in your future. Tell us about something you’ve done, something that’s relevant to the kind of work we do, something that excites you.
+
+Include links to open-source pull requests, bug reports, feature pitches, or any other public engagement. If you have any school or hobby projects you've built and you'd like us to see, include a link to those as well. You can also include school transcripts, non-code school projects, articles you've written, or anything else that you think will show your readiness for this job.
+
+A generic application won't do. We want to read your unique voice and see some creativity and effort. If it reads like AI slop, it's also going straight into the trash. We have real humans reading your application – we don't use screening software – so speak to them! Tell them why you want to be their next coworker.
+
+We’re accepting applications until Wednesday, April 23rd at 12:00 PM CST.
+
+We expect to take a few weeks to review all applications. You’ll hear from us in the middle of May about the status of your application. If you're invited to proceed, you'll participate in a phone screen with our People Ops team and then a short introductory call with a member of our programming team. Then, if you progress from there, we'll ask you to complete a take-home technical exercise. The exercise is representative of the kind of day-to-day work we'll expect you to do. We usually invite 5-10 candidates to this stage, and you should expect to spend 6-8 hours completing the test.
+
+After the technical exercise, the top candidates will proceed to a final interview with another 1-2 members our programming team. We’ll talk through your background, your interests, your exercise solution, and dive into your technical knowledge. No gotchas, brainteasers, or whiteboards.
+
+We aim to make an offer in June with a flexible start date.
+
+Please note that we’re not going to consider candidates with more than 3 years of professional experience for this role. We're specifically looking for someone who is newer to the field and seeking an opportunity to learn and grow with our team. We're also unable to offer individual feedback during the screening process before the technical exercise round, due to the limited capacity of our small hiring team.
+
+Thank you for your interest, and we look forward to hearing from you!

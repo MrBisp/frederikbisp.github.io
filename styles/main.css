@@ -91,9 +91,10 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 5rem;
 }
 
-.hero, .introduction, .reviews, .projects, .faq, .video-section, .why-hire-me {
+.hero, .introduction, .reviews, .projects, .faq, .video-section, .why-hire-me, .footer {
     width: min(100%, 75rem);
     margin-bottom: 5rem;
 }
@@ -273,6 +274,11 @@ nav a:hover {
     object-fit: cover;
     border-radius: var(--border-radius-default);
 }
+
+.yes-btn:hover {
+    scale: 1.5;
+}
+.no-btn:hover {
 
 /* Mobile design */
 @media (max-width: 768px) {

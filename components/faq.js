@@ -20,13 +20,13 @@ const faq = [
     {
         question: "You don't list any Rails experience?",
         answer: "You're right, my professional and project work so far has primarily used Python and JavaScript. " +
-            "However, I'm a fast learner and I'm genuinely excited by what I've read about the productivity and conventions of Rails. " +
-            "I strongly believe in using the best tool for the job, and I'm eager to become proficient in the stack 37signals uses. " +
-            "To get a head start, I've begun learning Rails through [TODO: Insert reference here]."
+            "However, to show my commitment to 37signals and ability to learn new things, I have started learning Rails. " +
+            "You can check out my small project at <a href='http://134.199.189.14' target='_blank'>this link</a>. Or alternatively " +
+            "you can check out the code on <a href='https://github.com/MrBisp/org_manager' target='_blank'>Github</a>."
     },
     {
         question: "How did you make this website?",
-        answer: "The website is on <a href='hhttps://github.com/MrBisp/frederikbisp.github.io' target='_blank'>Github</a>. " +
+        answer: "The website is on <a href='https://github.com/MrBisp/frederikbisp.github.io' target='_blank'>Github</a>. " +
             "I have been focusing on making it as fast and simple as possible, so decided not to use any frameworks. " +
             "It's simply HTML, CSS and JavaScript. I have made a few components to make it easier to read and write, " +
             "but it just uses vanilla JS and HTML5. "

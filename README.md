@@ -62,9 +62,9 @@ Some ways I could stand out:
 While these are good ideas, we need to start with the epicenter, and build around that.
 
 In this case, the epicenter is showing who I am. The most important aspects is:
-1. Show that I enjoy diving into new technologies and concepts
-2. Communicate that I love the way they work and build software - I want to work for them specifically!
-3. Show that I am so excited about understanding the intersection between technology and business.
+1. I am willing to go the extra mile
+2. I am a great fit for 37signals
+3. I have taste in software, especially due to my PM background
 
 Therefore, I will therefore:
 1. Just use plain js, html, css - no need for any frameworks or backend

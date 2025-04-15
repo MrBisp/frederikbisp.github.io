@@ -14,7 +14,7 @@ const projects = [
             "The most interesting part was how to handle new users and new videos, since you want to quickly be able to predict the vector embeddings, " +
             "and also handle a tradeoff between showing new videos and showing the once the model already knows are good. " +
             "<br/> <br/>I ended up using Thompson sampling which is a method to both determine video quality, but also to handle the explore / exploit tradeoff. ",
-        embed: "<iframe width='560' height='315' src='https://www.youtube.com/embed/3bJSC7WKSmU?si=SazRXW59ZTEP49e9' " +
+        embed: "<iframe width='560' height='315' src='https://www.youtube.com/embed/3bJSC7WKSmU?si=_92wG0UJMd_N-A1N&amp;start=27' " +
             "title='YouTube video player' frameborder='0' " +
             "allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' " +
             "referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
