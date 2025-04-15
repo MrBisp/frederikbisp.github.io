@@ -57,6 +57,7 @@ Some ways I could stand out:
 17. Dark/light mode toggle - but instead of that, it uses themes that are inspired by 37signal's products
 18. Vision page - where I describe what my first 30, 90, 180 days might look like?
 19. Write a small application in Rails, to highlight my ability to learn fast
+20. Make a LinkedIn ad for my application.
 
 ## Starting at the epicenter
 While these are good ideas, we need to start with the epicenter, and build around that.

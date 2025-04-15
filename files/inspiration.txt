@@ -1,0 +1,267 @@
+
+Meet your new
+Email Marketing Manager
+An example email with annotation. Navigate to 'Samples' for a text version
+A great fit for Basecamp
+Why this job
+
+Email marketing is my favorite marketing tool.
+
+Throughout my career I have worked with all kinds of digital marketing tools, but I keep going back to email marketing as my favorite one. Email is personal, yet not intrusive. When customers sign up to a mailing list, they want to hear from you. Customers have the power to get what they want on their terms, and simply unsubscribe when they had enough. This is likely what makes email marketing one of the tools with the highest ROI.
+
+I have worked with email marketing for nearly 10 years, focusing on strategy, but also on design and coding. I love testing new ideas, seeing how they perform, and then testing again. I have always imagined that for every email flow, there has to be a perfect combination of copy, timing, and design that would get the best results. Yet, we can only experiment and keep trying to get closer to that perfect combination. To me, this is such an exciting part of email marketing.
+
+On the technical side, I am also a developer at heart. I am usually the guy others call to figure out “why is Outlook cutting this button,” “why do my styles look different only on Gmail mobile,” or some other obscure HTML issue that only affects email.
+
+In terms of experience, I’ve worked with startups focused on marketing to businesses (B2B). In this path I have worked in small projects as well as large international campaigns spanning across multiple countries and reaching hundreds of thousands of subscribers. In each time, I have raised the bar in terms of what email marketing has to offer for each company.
+
+I would love to continue my journey at Basecamp, knowing that I can bring a lot of value, but also that I can learn a lot from it.
+Why Basecamp
+
+I want to work for Basecamp for two reasons: its culture and its product.
+
+On the culture side we are a match. I have followed Jason and David for years on Twitter. I have read “Getting Real” about three times already (the original 37signals version) and “Shape Up” has changed the way I tackle projects today. I am also a fan of working asynchronously and I have tried to introduce the concept everywhere I have worked at. Lastly, I am a huge supporter of remote work. I have tried both remote and in-person work for years, and I keep finding remote work so much more efficient.
+
+In terms of Basecamp’s work, I strongly believe what the company offers. I can attest that you need the right tool to be good at any type of collaborative project, and Basecamp is such tool. I am a supporter of transparency, knowing what my team is working on, but without having to join endless meetings or reading through disorganized Slack conversations. I believe in Basecamp as a product, and I know I can make other people believe in it as well.
+Why me
+
+    I have worked with email marketing for nearly 10 years.
+    I have managed email programs of all sizes for very influential brands.
+    I can build an email marketing program from scratch.
+    I like to create and bring new ideas to life, but also to analyze results and iterate.
+    I am a team player, yet I love working independently.
+    I am a marketer but also a developer (PHP/Laravel but could always use an excuse to try Rails!)
+    People like working with me (I may still need to work on my modesty...).
+
+Fun fact: A few years ago I built a tool to segment email marketing data in all kinds of interesting ways for clients.
+
+I coded it just to help me build reports faster, but it turned out to become the main email reporting tool for the company at that time and it is still in use today.
+Experience to create awesome email marketing campaigns
+Work
+
+    October, 2020 to Present
+    Lorem ipsum dolor sit.. USA
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, itaque, non! A earum laudantium magnam mollitia!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, itaque, non!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab deleniti dignissimos officiis optio repudiandae.
+    October, 2020 to Present
+    Lorem ipsum dolor sit.. USA
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, itaque, non! A earum laudantium magnam mollitia!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, itaque, non!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab deleniti dignissimos officiis optio repudiandae.
+    October, 2020 to Present
+    Lorem ipsum dolor sit.. USA
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, itaque, non! A earum laudantium magnam mollitia!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, itaque, non!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab deleniti dignissimos officiis optio repudiandae.
+
+Education
+
+    January, 2010 to April, 2010
+    Lorem ipsum dolor sit.. USA
+
+    Lorem ipsum dolor sit.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    January, 2010 to April, 2010
+    Lorem ipsum dolor sit. USA
+
+    Lorem ipsum dolor sit amet.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda nam nisi!
+
+Skills
+
+    Marketing and Development
+
+    More than 10 years of experience in email marketing design, and optimization.
+
+    Over 10 years of experience working with Google Analytics, Google Ads and Facebook Ads.
+
+    Proficient developing with PHP, including Laravel and Livewire. Advanced user of Microsoft Office software and Photoshop.
+    Honors
+
+    Summa Cum Laude – Bachelors of Business Administration.
+    Languages
+
+    Fluent in the English and Spanish language.
+    Public Speaking
+        Keynote speaker - Digital Marketing.
+
+        Nov 2021
+        Guest speaker - Digital Marketing.
+
+        Nov 2019
+        Guest speaker - Corporate Culture.
+
+        Feb 2018
+
+Work samples
+Writing: Introducing Basecamp to a friend
+RR
+John ‹›
+to A Friend with a Project
+14.22
+
+Hi Jason,
+
+I was thinking about this project you are working on, and I thought about an app that can help you get it off the ground faster.
+
+I’ve worked on a few projects like yours and keeping everyone on the same page was always the worst. After adding a few people to a team everyone starts putting documents everywhere and conversations bounce aimlessly between email and chat. It’s a mess.
+
+The way we solved this issue was using Basecamp. Basecamp is a tool that helps you keep all communication in one place. It also helps you break down big projects into smaller teams or tasks. Basically, everything that you do now with Slack + Dropbox + email + calendar, you can do with Basecamp but better (also less expensive than these btw). It was a game changer for us.
+
+If you want to take a look, sign up for a trial at basecamp.com. They don’t even ask for a credit card to try it.
+
+I would just suggest trying it now if you can. It's much easier to switch early before everyone starts using different apps.
+Reply now
+Strategy: Basecamp onboarding flow
+Email #1 - Welcome Notes
+
+For a trial service, onboarding communication is still part of the sales pitch. This flow should both introduce users to the service, but also help them understand the benefits of using it. A successful flow will result in users continuing to use Basecamp after their trial ends.
+
+This first email reassures users about their decision to sign up for Basecamp, and encourages them to get started.
+Basecamp logo
+Basecamp ‹onboarding@basecamp.com›
+to Jason
+12:30pm
+Basecamp
+Sign in
+Welcome to Basecamp!
+
+Congrats for signing up for Basecamp!
+
+Hundreds of companies use Basecamp every day to communicate and work better on projects. With Basecamp, you will now be freed from the constant flow emails, chats, and other communications that flood your inbox every day. Welcome to a better way to work.
+
+Start setting up your account to begin enjoying seamless collaboration:
+
+    Upload your logo.
+    Invite your teammates.
+    Create your first project.
+
+Your welcome series
+
+Basecamp is easy to use, but we want to make sure you use it in a way that works for you. For the following week, we will send you an email a day with tips on how to use Basecamp.
+
+Don’t want to wait? Check out the Basecamp Learn page with short video lessons on how to use all features.
+
+If you want to skip this email series, just click here to opt out. You will still receive your notifications and other Basecamp emails.
+Reply now
+Email #2 - Features: The HQ
+
+The second and following emails will teach users about the main features in Basecamp.
+Basecamp logo
+Basecamp ‹onboarding@basecamp.com›
+to Jason
+Nov 1
+Basecamp
+Sign in
+
+Basecamp tip #1: Your HQ
+
+Your HQ is a place where everyone in your company is welcome. This is the right place to make company announcements, schedule events, post company policies, share important documents, and more. Use your HQ to post information that everyone needs to know.
+
+Here are some examples of what to put in your HQ:
+
+    Company holiday calendar and events.
+    Project announcements.
+    Company assets like your logo and presentation templates.
+    Employee handbooks.
+    Employee benefit documents.
+    Company policies.
+
+You can also use your HQ to keep the communication flowing. Have a project idea? Post it on the message board to gather feedback from your teammates.
+
+For more casual interactions, Campfire is the place to go. Use it to celebrate birthdays, ask general questions, or just talk about where to go for happy hour.
+
+Next in your learning series: Teams.
+
+Look out for your next email tomorrow to learn about Teams. Don’t want to wait? Get your next email now.
+
+If you want to skip this email series, just click here to opt out. You will still receive your notifications and other Basecamp emails.
+Reply now
+Email #3 - Features: Teams
+Basecamp logo
+Basecamp ‹onboarding@basecamp.com›
+to Jason
+Nov 2
+Basecamp
+Sign in
+
+Basecamp tip #2: Teams
+
+Teams is the place where teammates with the same role can gather. For example, you can create a Team for your marketing department or your sales team. Similar to your HQ, you can use a Team to keep track of important dates, to-dos, and documents. The difference is that what you post here is only relevant to others with the same company role.
+A screenshot of the Teams feature
+The Teams section in Basecamp
+
+For example, your marketing department can use their Team to discuss a new email marketing strategy or review the results of an advertising campaign. In contrast, your HR department can use their Team to save compensation documents or discuss how a new policy may affect employees.
+
+Teams allow groups to communicate about topics that are only relevant to them.
+
+FAQ: What if there’s only a handful of people in my company?
+
+If your company consists of only a few people, you may be better skipping Teams. Basecamp is about improving communication, so avoid creating information silos. Instead, you can use your HQ to keep general information, and Projects to manage specific plans.
+
+Next in your learning series: Projects.
+
+Look out for your next email tomorrow to learn about Projects. Don’t want to wait? Get your next email now.
+
+If you want to skip this email series, just click here to opt out. You will still receive your notifications and other Basecamp emails.
+Reply now
+Email #4 - Features: Projects
+Basecamp logo
+Basecamp ‹onboarding@basecamp.com›
+to Jason
+Nov 4
+Basecamp
+Sign in
+
+Basecamp tip #3: Projects
+
+Projects is the place where people with different roles can come together to work on something. For example if you want to launch a podcast, you may need to collaborate with a few people from Marketing and others from Operations. A project will also have its own tasks like buying recording equipment, writing a script, or publishing a first episode.
+A screenshot of the Projects feature with the newest Basecamp teammate
+The Projects section in Basecamp
+
+FAQ: What’s the difference between Teams and Projects?
+
+Although Teams and Projects may seem similar, they have different goals.
+
+Think of using Projects to group tasks that have a start and an end. For example, a goal that you can accomplish within a few weeks. Teams, on the other hand, are better to group long-running ideas that never end. For example, a Marketing department.
+
+Next in your learning series: Notifications.
+
+Look out for your next email tomorrow to learn about Notifications. Don’t want to wait? Get your next email now.
+
+If you want to skip this email series, just click here to opt out. You will still receive your notifications and other Basecamp emails.
+Reply now
+Email #5 - Features: Notifications
+Basecamp logo
+Basecamp ‹onboarding@basecamp.com›
+to Jason
+Nov 6
+Basecamp
+Sign in
+
+Basecamp tip #4: Notifications
+
+Basecamp is about improving communication. Sometimes you may want to be aware of everything that is going on. Other times you may want to know only when someone needs something from you specifically.
+A screenshot of the Notifications screen in Basecamp
+The Notifications section in Basecamp
+
+Maybe the real onboarding email was the friends we made along the way...
+See more...
+Ready to get in touch?
+Contact me
+
+    Call: xxx-xxx-xxxx
+    Email: xxxxx@example.com
+
