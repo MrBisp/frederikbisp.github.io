@@ -1,16 +1,17 @@
 const projects = [
     {
-        name: "Ruby on rails app",
-        description: "For the purpose of this application, I created a Ruby on Rails app (<a href='https://github.com/MrBisp/org_manager'>Github</a>, <a href='http://134.199.189.14' target='_blank'>app</a>), to show that I am able to quickly pick up new technologies. " +
-            "It is a very simple app that mostly follows the basic tutorial from <a href='https://guides.rubyonrails.org/getting_started.html' target='_blank'>rubyonrails.org</a>. " +
-            "But I find that in order to really understand a technology, you need to get a new idea and try to implement it. <br/><br/>" +
-            "I decided to add an organization model, which has a one-to-many relationship with the users. " +
-            "Each user can either be admin or a regular member of an organization. Only admins can add new users to the organization. " +
-            "I ended up using Docker to deploy to Digital Ocean, and it went pretty smoothly. <br/><br/>" +
-            "<b>Learnings:</b> I learned a lot about Ruby on Rails, and liked how good the performance was out of the box. " +
-            "It took me some time to understand how everything works, and it was mostly because I was surprised by how many things happened automatically due to naming conventions. " +
-            "I have a feeling that it is a framework that allows the developer to become really fast once they know the ins and outs of the framework. <br/><br/>" +
-            "If I get the job I will be very excited to spend more time with Ruby on Rails!",
+        name: "Ruby on rails app (built specifically for this application!)",
+        description: "<b>The challenge:</b> I'd never built a Rails application before, but since Rails is core to how you build at 37signals, I decided the best way to demonstrate my commitment and learning speed was to build something simple from scratch." +
+            "<p><b>My approach:</b></p><ul>" +
+            "<li>Followed the beginning of Rails' official tutorial closely to get the fundamentals.</li>" +
+            "<li>Implemented my own extension: an Organization model (one-to-many relationship with users), where only admins can invite new users.</li>" +
+            "<li>Deployed with Docker on DigitalOcean to experience a somewhat realistic workflow.</li></ul>" +
+            "<p><b>Key learnings:</b></p><ul>" +
+            "<li>Was surprised by how many things came out of the box with Rails, like authentication, fast performance, and built-in testing.</li>" +
+            "<li>I have never experienced a framework leaning so much into naming conventions. Surprised me when references worked without imports due to naming conventions. </li></ul>" +
+            "<p class='project-link'><b>Check it out: </b></p>" +
+            "<a href='https://github.com/MrBisp/org_manager' target='_blank'>Github Repo</a> | " +
+            "<a href='http://134.199.189.14' target='_blank'>Live Application</a>",
         embed: "<div class=\"project-image-carousel\" >" +
             "<img class='project-image active' src='img/rails-1.png' alt='Ruby on Rails app 1' data-index=\"0\" />" +
             "<img class='project-image' src='img/rails-2.png' alt='Ruby on Rails app 2' data-index=\"1\" />" +
@@ -20,48 +21,33 @@ const projects = [
             "</div>"
     },
     {
-        name: "YouTube-like algorithm",
-        description: "I am really excited about this project! I created a YouTube-like algorithm in Python. " +
-            "I found this awesome method called <a href=\"https://en.wikipedia.org/wiki/Collaborative_filtering\" target=\"_blank\"> collaborative filtering</a>, " +
-            "which is a nice way to find similar items based on user behavior. Basically, we represent each user and video as a vector like this: " +
-            "user1 = [0.53, -0.61, ...]. And it is then possible to calculate the dot product of the users and the videos to find the best matches. " +
-            "<br /> <br/>The model learns the vector embeddings by minimizing the difference between the predicted and the actual watch time. " +
-            "To do this I needed to make a simulation of the user behaviour. So for example a user that is very interested in gaming is more likely to click on a gaming video. " +
-            "And then depending on the user\'s interest and the video\'s quality, I simulated how much they watched. " +
-            "<br/> <br/>All the interesting things happens in Python, but I also created a frontend using Next.js. " +
-            "I am still not convinced that we need such heavy javascript frameworks, but I was able to find a lot of documentation for it, which is nice for a junior developer like me. " +
-            "<br/> <br/>If you are interested, I made a YouTube video, where I explain a bit more about what I did, and some of the problems I ran into. " +
-            "The most interesting part was how to handle new users and new videos, since you want to quickly be able to predict the vector embeddings, " +
-            "and also handle a tradeoff between showing new videos and showing the once the model already knows are good. " +
-            "<br/> <br/>I ended up using Thompson sampling which is a method to both determine video quality, but also to handle the explore / exploit tradeoff. " +
-            "I also invented a technique to handle the cold start problem. Basically it sets the embeddings to a weighted average of the users that watched it, where " +
-            "the weight is the watch time.",
+        name: "YouTube-like Recommendation Algorithm",
+        description: "<b>The challenge:</b> Create a working recommendation algorithm (like YouTube's) from scratch to understand how users discover content." +
+            "<p><b>My approach:</b></p><ul>" +
+            "<li>Built a simulation of user behavior to generate realistic engagement data.</li>" +
+            "<li>Used Collaborative Filtering and Thompson Sampling (similar to methods used by real-world recommendation engines).</li>" +
+            "<li>Created a clean frontend in Next.js for demonstration purposes.</li></ul>" +
+            "<p><b>Key learnings:</b></p><ul>" +
+            "<li>Understanding how the model works allowed me to think of creative ways to improve it.</li>" +
+            "<li>A key challenge was to handle new videos and users. I found a simpler version than what YouTube uses, that works well for this project. Sometimes doing less is better.</li></ul>" +
+            "<p class='project-link'><b>Watch the explanation:</b></p>" +
+            "<a href='https://www.youtube.com/watch?v=3bJSC7WKSmU&start=27' target='_blank'>My YouTube Video Explaining the Project</a>",
         embed: "<iframe width='560' height='315' src='https://www.youtube.com/embed/3bJSC7WKSmU?si=_92wG0UJMd_N-A1N&amp;start=27' " +
             "title='YouTube video player' frameborder='0' " +
             "allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' " +
             "referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
     },
     {
-        name: "Project-Employee matching",
-        description: "In my previous job, I experimented with using vector embeddings to match projects with employees. " +
-            "<br/><br/><b>The challenge:</b> Our customers (companies) were bidding on projects, and used to spend hours reading through the project files " +
-            "to identify the right employees for the project. We already had structured employee data including skill levels, but the projects were just unstructured pdf files. " +
-            "You could ask the user to manually type 'we need a person with level 8 in web design and 7 in project management...' but this would take forever, and require " +
-            "that the user would read through all of the project files (sometimes 100+ pages)." +
-            "<br/><br/><b>The solution:</b> We used OpenAI\'s Assistant API to upload the project files to their vector storage. " +
-            "We could then ask the LLM to extract the needed project roles including a description. So it would for example suggest 2 web designers, " +
-            "2 web developers, 1 project manager and so on. For each of them, it would describe the type of skills and experiences that were required. " +
-            "The user could edit these roles and descriptions.<br/><br/>We would then use OpenAI\'s embeddings API to transform this into a vector representation " +
-            "and match the descriptions with the existing vector representations of the employees. We even highlighted relevant skills and experiences, " +
-            "and generated a short description of why the employee was a good fit and presented alternatives. " +
-            "<br/><br/><b>My role:</b> I was the product manager, and was responsible for shaping the solution together with a developer and designer. " +
-            "I did not design the actual pixels, but worked along our designer to come up with how it should work. " +
-            "Since the developer on the project had little experience with AI, I designed the data flow, and figured out which APIs we should use and how. " +
-            "<b>I also coded a basic prototype in Next.js</b> to test that it was feasible to get it working." +
-            "<br/><br/><b>Evaluation:</b> It is cool that we were able to build this. A few years ago it would have been very difficult to solve this problem " +
-            "but with the new LLM technology, it only required some creative thinking. " +
-            "I do not like the reliance on other companies APIs, since your ability to achieve better results and not having downtime is reliant on another company. " +
-            "I would therefore be very interested in using a self-hosted LLM like LLama, but this was not possible with the companies infrastructure at the time.",
+        name: "Project-Employee Matching",
+        description: "<b>The challenge:</b> Customers wasted hours reading PDFs to match employees to projects. The existing method was slow, frustrating, and manual." +
+            "<p><b>My approach:</b></p><ul>" +
+            "<li>Shaped an AI-driven prototype using OpenAI's API to extract structured data from unstructured PDFs.</li>" +
+            "<li>Built a basic Next.js prototype to validate feasibility and usability. Handed it over to the developers who built the final product.</li>" +
+            "<li>Collaborated closely with designer and developer. I lead the technical direction, including designing the data flow.</li></ul>" +
+            "<p><b>Key learnings and considerations:</b></p><ul>" +
+            "<li>How to work with new AI models to create novel products.</li>" +
+            "<li>It was cool with the AI models, but I do not like the idea that the quality and reliability of the product is dependent on the model providers. Would have liked to host open-source models but it was not possible with the company's setup.</li></ul>" +
+            "<p class='project-link'><b>Result:</b></p> Users loved the product. It eliminated hours of work with just a few clicks.",
         embed: "<div class=\"project-image-carousel\" >" +
             "<img class='project-image active' src='img/employee-match-2.png' alt='Project-Employee matching' data-index=\"0\" />" +
             "<img class='project-image' src='img/employee-match-1.png' alt='Project-Employee matching' data-index=\"1\" />" +
@@ -71,23 +57,22 @@ const projects = [
             "</div>"
     },
     {
-        name: "Hungry Homies",
-        description: "<a href='https://github.com/MrBisp/Hungry-Homies' target='_blank'>Hungry Homies</a> is a hobby project I worked on in late 2024." +
-            "<br/><br/><b>The challenge:</b> I never trust Google\'s reviews. But what I do trust is my friends. " +
-            "So I wanted to create an app that you can pull out whenever you want to go to a café, restaurant or bar that shows your friends\' reviews. " +
-            "<br/><br/><b>The solution:</b> I created a simple mobile-first website that allows you to add friends, add reviews and see your friends\' reviews. " +
-            "It is built with Next.js and Supabase. I did use a boilerplate called <a href='https://shipfa.st' target='_blank'>Shipfast</a> to get started, " +
-            "which is a really nice boilerplate for Next.js, that makes it super easy to handle authentication. <br/><br/>" +
-            "I used Supabase for the database, which I ended up liking. It was easy and they have a really nice API. I also used supabase storage, for storing the images that users upload. " +
-            "<br/><br/><b>The result:</b> My friends loved the idea, and made an account. But there is a serious cold start problem like any other platform. " +
-            "Nobody wanted to post reviews because nobody else was. So even though I tried to get it started, the app never took off. " +
-            "<br/><br/><b>Learnings:</b> It was not my first full-stack application, but nice to get some repetition. " +
-            "I honestly learned more about the business side of things rather than coding. " +
-            "Interestingly, the number one complaint I got was that the map itself looked to boring, " +
-            "so I went down the rabbit hole of how to customize a map, which goes much deeper than you would think.",
+        name: "Hungry Homies (Personal full-stack app)",
+        description: "<b>The challenge:</b> I do not trust Google reviews. But I do trust my friends' reviews. I wanted to create a product that would allow me to find great places to eat/drink coffee near me." +
+            "<p><b>My approach:</b></p><ul>" +
+            "<li>Developed a simple, mobile-first application using Next.js and Supabase.</li>" +
+            "<li>Focused on user experience. I wanted to make it as simple as possible for users to add places and reviews.</li>" +
+            "<li>Developed the app in Next.js and database in Supabase. Worked quite well, but still not sure if I like Next.js or not.</li>" +
+            "<li>Faced the \"cold start\" problem. Who wants to use a network driven app when your friends are not already using it?</li></ul>" +
+            "<p><b>Key learnings:</b></p><ul>" +
+            "<li>The number one critisism was that the map was boring. Led me down a rabbit hole of learning about map APIs which is much deeper than you would think.</li>" +
+            "<li>I learned a lot about the importance of network effects and how they can be a challenge to overcome.</li></ul>" +
+            "<p class='project-link'><b>View the project:</b></p>" +
+            "<a href='https://github.com/MrBisp/Hungry-Homies' target='_blank'>Github Repo</a>",
         embed: "<img class='project-image-full' src='img/hungry-homies.png' alt='Hungry Homies' />"
     }
-]
+];
+
 // TODO: Add more awesome projects after joining 37signals ;)
 
 export class Projects extends HTMLElement {
