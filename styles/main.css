@@ -89,6 +89,7 @@ nav {
     left: 0;
     right: 0;
     z-index: 1000;
+    width: 100vw;
     background: rgb(255, 255, 255);
 }
 
@@ -468,6 +469,12 @@ nav a:hover {
         scale: 1;
         opacity: 1;
         cursor: default;
+    }
+    .cv-section .left-container, .cv-section .right-container {
+        width: 100%;
+    }
+    .cv-section .item-detail {
+        flex-direction: column;
     }
 }
 
