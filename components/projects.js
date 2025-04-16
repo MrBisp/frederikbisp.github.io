@@ -6,9 +6,10 @@ const projects = [
             "<li>Followed the beginning of Rails' official tutorial closely to get the fundamentals.</li>" +
             "<li>Implemented my own extension: an Organization model (one-to-many relationship with users), where only admins can invite new users.</li>" +
             "<li>Deployed with Docker on DigitalOcean to experience a somewhat realistic workflow.</li></ul>" +
-            "<p><b>Key learnings:</b></p><ul>" +
+            "<p><b>Key learnings and reflections:</b></p><ul>" +
             "<li>Was surprised by how many things came out of the box with Rails, like authentication, fast performance, and built-in testing.</li>" +
-            "<li>I have never experienced a framework leaning so much into naming conventions. Surprised me when references worked without imports due to naming conventions. </li></ul>" +
+            "<li>I have never experienced a framework leaning so much into naming conventions. Surprised me when references worked without imports due to naming conventions. </li>" +
+            "<li>While I did not have experience while Rails or Ruby before, many of the concepts felt similar to other languages I have used. I am sure I will be able to pick it up quickly.</li></ul>" +
             "<p class='project-link'><b>Check it out: </b></p>" +
             "<a href='https://github.com/MrBisp/org_manager' target='_blank'>Github Repo</a> | " +
             "<a href='http://134.199.189.14' target='_blank'>Live Application</a>",

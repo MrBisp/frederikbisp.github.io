@@ -2,9 +2,8 @@ const faq = [
     {
         question: "What is your favorite 37signals product?",
         answer: "From what I've seen in demos, I am really impressed by HEY! " +
-            "To me, that is a prime example of thinking outside the box and creating a product that solves challenges from first principles. " +
-            "But if I were to pick, I just think the idea about Once is awesome. I have been really into the idea of hosting things myself, " +
-            "and I think that Once is such a great concept and a really low price!" 
+            "To me, that is a great example of thinking outside the box and creating a product that solves challenges from first principles. " +
+            "I would love to work on HEY - maybe we could improve the search functionality in the calender by using semantic search? Depends on the appetite."
     },
     {
         question: "Mac or Windows?",
