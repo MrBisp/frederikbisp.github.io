@@ -16,6 +16,7 @@ const projects = [
             "<img class='project-image' src='img/rails-2.png' alt='Ruby on Rails app 2' data-index=\"1\" />" +
             "<img class='project-image' src='img/rails-3.png' alt='Ruby on Rails app 3' data-index=\"2\" />" +
             "<img class='project-image' src='img/rails-4.png' alt='Ruby on Rails app 4' data-index=\"3\" />" +
+            "<img class='project-image-carousel-dummy' src='img/rails-1.png'/>" +
             "</div>"
     },
     {
@@ -65,7 +66,9 @@ const projects = [
             "<img class='project-image active' src='img/employee-match-2.png' alt='Project-Employee matching' data-index=\"0\" />" +
             "<img class='project-image' src='img/employee-match-1.png' alt='Project-Employee matching' data-index=\"1\" />" +
             "<img class='project-image' src='img/employee-match-3.png' alt='Project-Employee matching' data-index=\"2\" />" +
-            "<img class='project-image' src='img/employee-match-4.png' alt='Project-Employee matching' data-index=\"3\" /></div>"
+            "<img class='project-image' src='img/employee-match-4.png' alt='Project-Employee matching' data-index=\"3\" />" +
+            "<img class='project-image-carousel-dummy' src='img/employee-match-1.png'/>" +
+            "</div>"
     },
     {
         name: "Hungry Homies",

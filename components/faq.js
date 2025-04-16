@@ -13,16 +13,9 @@ const faq = [
     },
     {
         question: "What is your favorite programming language?",
-        answer: "I have mostly built things for the web, so I have mostly used JavaScript. " +
+        answer: "I have mostly built things for the web, and have mostly used JavaScript. " +
             "But I have lately been really into machine learning, so I have been using Python a lot. " +
-            "But I have heard many good things about Rails, so I would love to learn that as well!"
-    },
-    {
-        question: "You don't list any Rails experience?",
-        answer: "You're right, my professional and project work so far has primarily used Python and JavaScript. " +
-            "However, to show my commitment to 37signals and ability to learn new things, I have started learning Rails. " +
-            "You can check out my small project at <a href='http://134.199.189.14' target='_blank'>this link</a>. Or alternatively " +
-            "you can check out the code on <a href='https://github.com/MrBisp/org_manager' target='_blank'>Github</a>."
+            "But I enjoyed learning Ruby on Rails as well, and would love to use that in the future!"
     },
     {
         question: "How did you make this website?",
