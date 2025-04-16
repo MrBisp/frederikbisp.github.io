@@ -224,41 +224,70 @@ nav a:hover {
     max-width: 100%;
 }
 
-.project-image {
-    width: 25%;
-    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 0px;
-    border-radius: var(--border-radius-default);
-    opacity: 0.8;
-    transition-duration: 0.25s;
-    transition-timing-function: ease-in-out;
-    cursor: pointer;
-    object-fit: cover;
-}
 .project-image-full {
     width: 100%;
     display: block;
     box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 16px;
     border-radius: var(--border-radius-default);
 }
-.project-image.active {
-    scale: 1.02;
-    opacity: 1;
-    cursor: default;
-}
 
 .project-image-carousel {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    width: calc(4 * 90%);
-    transition-duration: 0.25s;
-    transition-timing-function: ease-in-out;
-    overflow: hidden;
-    scroll-snap-type: x mandatory;
+    display: inline-block;
+    width: 100%;
+    height: min(80vh, 30rem);
+    position: relative;
+    padding-top: 1rem;
 }
 
+.project-image {
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 0px 8px 4px;
+    border-radius: var(--border-radius-default);
+    transition: transform 0.25s cubic-bezier(0.4, 0.0, 0.2, 1),
+                opacity 0.25s cubic-bezier(0.4, 0.0, 0.2, 1);
+    cursor: pointer;
+    object-fit: cover;
+    position: absolute;
+    transform-origin: center center;
+    opacity: 1;
+}
+
+.project-image:nth-child(1) {
+    transform: rotate(1deg) translateY(0);
+    z-index: 4;
+}
+
+.project-image:nth-child(2) {
+    transform: rotate(-1deg) translateY(0);
+    z-index: 3;
+}
+
+.project-image:nth-child(3) {
+    transform: rotate(-2deg) translateY(0);
+    z-index: 2;
+}
+
+.project-image:nth-child(4) {
+    transform: rotate(2deg) translateY(0);
+    z-index: 1;
+}
+
+.project-image.active {
+    z-index: 10;
+}
+
+.project-image.prev {
+    transform: translateX(110%) translateY(10%) rotate(10deg) !important;
+    opacity: 0.5;
+    z-index: 10;
+}
+
+.project-image-carousel:hover .project-image.active {
+    transform: rotate(1deg) translateY(0);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, 
+                rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
 
 .why-hire-me {
     display: flex;
@@ -283,10 +312,6 @@ nav a:hover {
     max-height: 100%;
     object-fit: cover;
     border-radius: var(--border-radius-default);
-}
-
-.yes-btn:hover {
-    scale: 1.5;
 }
 
 /* Mobile design */
@@ -341,7 +366,7 @@ nav a:hover {
 .alternative .faq, 
 .alternative .video-section, 
 .alternative .why-hire-me, 
-.alternative .footer {
+.alternative .footer{
     width: min(100%, 50rem);
     margin-bottom: 5rem;
 }
@@ -352,4 +377,54 @@ nav a:hover {
 
 .alternative .review {
     background: rgba(210, 229, 246, 0.2);
+}
+
+/* CV Component Styles */
+.cv {
+    width: min(100%, 75rem);
+    margin-bottom: 5rem;
+}
+.cv-section {
+    margin-bottom: 2.5rem; 
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.cv-section h3 {
+    margin-bottom: 1.5rem; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+    padding-bottom: 0.5rem; 
+    width: 100%; 
+}
+
+.item-detail {
+    margin-bottom: 1.5rem; 
+    width: 100%; 
+}
+
+.item-detail h4 {
+    margin-bottom: 0.25rem;
+    font-size: 1.2rem;
+}
+
+.item-detail p {
+    margin-bottom: 0.5rem; 
+    padding-bottom: 0; 
+}
+
+.item-detail .dates {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.item-detail ul {
+    margin-top: 0.5rem; 
+    padding-left: 1.5rem; 
+}
+
+.item-detail ul li {
+    margin-bottom: 0.25rem; 
 }

@@ -2,29 +2,43 @@ console.log("👋 Hello there, curious 37signals reviewer! Thanks for checking u
 
 //On load, add a click listener to all project images
 document.addEventListener('DOMContentLoaded', () => {
-
-    const scrollPerImage = 25;
     const carousels = document.querySelectorAll('.project-image-carousel');
 
     // Iterate over each carousel
     carousels.forEach(carousel => {
         const images = carousel.querySelectorAll('.project-image'); 
+        const imageCount = images.length;
+
+        // Set initial state
+        images[0].classList.add('active');
 
         images.forEach(image => {
             image.addEventListener('click', () => {
-                if (window.innerWidth < 768) return;
+                const activeImage = carousel.querySelector('.project-image.active');
+                if (!activeImage) return;
 
-                const index = image.getAttribute('data-index');
-                console.log(`Carousel image ${index} clicked`);
-                const scrollAmount = index * scrollPerImage
-                carousel.style.transform = `translateX(-${scrollAmount}%)`;
+                const activeImageIndex = parseInt(activeImage.getAttribute('data-index'), 10);
 
-                image.classList.add('active');
+                // Set the current active image as prev
+                activeImage.classList.remove('active');
+                activeImage.classList.add('prev');
 
-                const imagesToRemoveClassFrom = carousel.querySelectorAll('.project-image:not([data-index="' + index + '"])');
-                imagesToRemoveClassFrom.forEach(otherImage => {
-                    otherImage.classList.remove('active');
+                // Calculate and set new active image
+                const newIndex = (activeImageIndex + 1) % imageCount;
+                const newActiveImage = carousel.querySelector('.project-image[data-index="' + newIndex + '"]');
+                newActiveImage.style.zIndex = '5';
+
+                // Remove prev class from any image that had it
+                const prevImages = carousel.querySelectorAll('.project-image.prev');
+                prevImages.forEach(prevImage => {
+                    // Remove prev class after transition duration (500ms)
+                    setTimeout(() => {
+                        prevImage.classList.remove('prev');
+                        newActiveImage.classList.add('active');
+                        newActiveImage.style.zIndex = '';
+                    }, 250);
                 });
+
             });
         });
     });
