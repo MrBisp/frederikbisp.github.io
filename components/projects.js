@@ -22,10 +22,11 @@ const projects = [
     },
     {
         name: "YouTube-like Recommendation Algorithm",
-        description: "<b>The challenge:</b> Create a working recommendation algorithm (like YouTube's) from scratch to understand how users discover content." +
+        description: "<b>The challenge:</b> Create a working recommendation algorithm (like YouTube's) from scratch to understand how the algorithm discovers content." +
             "<p><b>My approach:</b></p><ul>" +
             "<li>Built a simulation of user behavior to generate realistic engagement data.</li>" +
             "<li>Used Collaborative Filtering and Thompson Sampling (similar to methods used by real-world recommendation engines).</li>" +
+            "<li>Created the backend in Python with FastAPI.</li>" +
             "<li>Created a clean frontend in Next.js for demonstration purposes.</li></ul>" +
             "<p><b>Key learnings:</b></p><ul>" +
             "<li>Understanding how the model works allowed me to think of creative ways to improve it.</li>" +
