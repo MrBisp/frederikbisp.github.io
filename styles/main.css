@@ -282,16 +282,24 @@ nav a:hover {
     z-index: 10;
 }
 
+.project-image-carousel:hover .project-image:nth-child(1) {
+    transform: rotate(2deg);
+}
+.project-image-carousel:hover .project-image:nth-child(2) {
+    transform: rotate(-2deg);
+}
+.project-image-carousel:hover .project-image:nth-child(3) {
+    transform: rotate(-4deg);
+}
+.project-image-carousel:hover .project-image:nth-child(4) {
+    transform: rotate(4deg);
+}
+
+
 .project-image.prev {
     transform: translateX(110%) translateY(10%) rotate(10deg) !important;
     opacity: 0.5;
     z-index: 10;
-}
-
-.project-image-carousel:hover .project-image.active {
-    transform: rotate(1deg) translateY(0);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, 
-                rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .why-hire-me {
@@ -369,22 +377,40 @@ nav a:hover {
     align-items: flex-start;
     justify-content: flex-start;
 }
+.cv h2{
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+}
 
 .cv-section h3 {
     margin-bottom: 1.5rem; 
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
     padding-bottom: 0.5rem; 
     width: 100%; 
+    font-size: 1.5rem;
 }
 
 .item-detail {
     margin-bottom: 1.5rem; 
-    width: 100%; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.left-container {
+    width: 30%;
+}
+.right-container {
+    width: calc(70% - 2rem);
 }
 
 .item-detail h4 {
     margin-bottom: 0.25rem;
     font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .item-detail p {

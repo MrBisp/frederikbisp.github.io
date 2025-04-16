@@ -1,34 +1,6 @@
 const cv = [
     {
-        title: "Education",
-        items: [
-            {
-                school: "Copenhagen Business School",
-                degree: "Master in Business Administration and Information Systems",
-                startDate: "2022",
-                endDate: "2024",
-                items: [
-                    "Combines business strategy with digital and information technologies.",
-                    "Got top grades in several classes focused on AI and machine learning in Python.",
-                    "My master thesis was about analyzing strategies of Danish platform companies."
-                ]
-            },
-            {
-                school: "Copenhagen Business School",
-                degree: "Bachelor in Business Administration and Information Systems",
-                startDate: "2019",
-                endDate: "2022",
-                items: [
-                    "We learned the most basic programming such as MVC, OOP, SQL, and more.",
-                    "We made a few small full-stack projects - all of them using HTML, CSS and JavaScript.",
-                    "Coded a app in React Native for a class, and got top grades for it.",
-                    "My bachelor thesis was about analyzing a Danish platform company, and suggesting strategies for growth."
-                ]
-            }
-        ]
-    },
-    {
-        title: "Experience",
+        title: "Work experience",
         items: [
             {
                 company: "Youandx",
@@ -37,7 +9,7 @@ const cv = [
                 endDate: "December 2024",
                 description: "Youandx is a platform for keynote speakers. We also developed a customer side, allowing customers to get an overview of their employees' skills.",
                 items: [
-                    "Launched new app features based on data insights from my PowerBI dashboards, driving a <b>45% increase in Monthly Active Users</b> over six months.",
+                    "Launched new features based on data insights from my PowerBI dashboards, driving a <b>45% increase in Monthly Active Users</b> over six months.",
                     "Worked with the CEO to define the product strategy and roadmap.",
                     "Shaped projects together with our tech lead and designer.",
                     "Helped with the onboarding of new customers, and was responsible for the customer success.",
@@ -48,12 +20,44 @@ const cv = [
                 position: "Product Owner (part time while studying)",
                 startDate: "June 2020",
                 endDate: "August 2024",
-                description: "Youandx is a platform for keynote speakers. We also developed a customer side, allowing customers to get an overview of their employees' skills.",
+                description: "Worked as the product owner in the scrum team, and was responsible for the product roadmap.",
                 items: [
-                    "Implemented fixed time, variable scope. It finally allowed us to launch on time, which made my CEO very happy.",
+                    "<b>Implemented fixed time, variable scope.</b> It finally allowed us to launch on time, which made my CEO very happy.",
                     "Automated monthly supplier analytics emails, reducing monthly churn by 28% and establishing them as a major retention driver.",
-                    "Optimized onboarding processes for speakers, increasing signup conversion rates from 1.16% to 5.4%.",
+                    "Optimized onboarding processes for speakers, <b>increasing signup conversion rates from 1.16% to 5.4%.</b>",
                     "Led all of the development and shaping. I also wrote user stories."
+                ]
+            }
+        ]
+    },
+    {
+        title: "Education",
+        items: [
+            {
+                school: "Copenhagen Business School",
+                degree: "Master",
+                startDate: "2022",
+                endDate: "2024",
+                description: "Master in Business Administration and Information Systems",
+                items: [
+                    "Combines business strategy with digital and information technologies.",
+                    "Got top grades in several classes focused on AI and machine learning in Python.",
+                    "Learned about data network effects, and philosophized about the future of AI.",
+                    "My master thesis was about analyzing strategies of Danish platform companies."
+                ]
+            },
+            {
+                school: "Copenhagen Business School",
+                degree: "Bachelor",
+                startDate: "2019",
+                endDate: "2022",
+                description: "Bachelor in Business Administration and Information Systems",
+                items: [
+                    "We learned the most basic programming concepts such as MVC, OOP, SQL, and more.",
+                    "We made a few small full-stack projects - all of them using HTML, CSS and JavaScript. Express backend, and MongoDB (I would have picked an SQL db, but not allowed for some reason) as database.",
+                    "Coded an app in React Native for a class, and got top grades for it.",
+                    "Learned about microeconomics and how it relates to software development.",
+                    "My bachelor thesis was about analyzing a Danish platform company, and suggesting strategies for growth."
                 ]
             }
         ]
@@ -73,6 +77,7 @@ export class Cv extends HTMLElement {
                 cvHTML += `
                     <div class="item-detail">`;
 
+                cvHTML += `<div class="left-container">`;
                 if (detailItem.degree && detailItem.school) {
                     cvHTML += `<h4>${detailItem.degree} - ${detailItem.school}</h4>`;
                 } else if (detailItem.position && detailItem.company) {
@@ -82,6 +87,9 @@ export class Cv extends HTMLElement {
                 if (detailItem.startDate && detailItem.endDate) {
                     cvHTML += `<p class="dates">${detailItem.startDate} - ${detailItem.endDate}</p>`;
                 }
+                cvHTML += `</div>`;
+
+                cvHTML += `<div class="right-container">`;
 
                 if (detailItem.description) {
                     cvHTML += `<p>${detailItem.description}</p>`;
@@ -94,6 +102,8 @@ export class Cv extends HTMLElement {
                     });
                     cvHTML += '</ul>';
                 }
+
+                cvHTML += `</div>`;
 
                 cvHTML += `
                     </div>`;
