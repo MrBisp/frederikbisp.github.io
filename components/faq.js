@@ -29,6 +29,10 @@ const faq = [
         answer: "Fixed time, variable scope. As a product manager I really saw how scope creep happens. " +
             "My old boss used to keep asking for more and more features and then complained that we were not delivering on time. " +
             "It ended when I started being really strict about having a fixed time, and then only being flexible on the scope."
+    },
+    {
+        question: "Are you in the right timezone?",
+        answer: "I live in Copenhagen, Denmark, so I am in the right timezone. "
     }
 ]
 
