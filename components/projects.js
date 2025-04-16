@@ -45,7 +45,7 @@ const projects = [
             "<li>Built a basic Next.js prototype to validate feasibility and usability. Handed it over to the developers who built the final product.</li>" +
             "<li>Collaborated closely with designer and developer. I lead the technical direction, including designing the data flow.</li></ul>" +
             "<p><b>Key learnings and considerations:</b></p><ul>" +
-            "<li>How to work with new AI models to create novel products.</li>" +
+            "<li>How to work with new AI models to create simple products that would have been impossible just a few years ago.</li>" +
             "<li>It was cool with the AI models, but I do not like the idea that the quality and reliability of the product is dependent on the model providers. Would have liked to host open-source models but it was not possible with the company's setup.</li></ul>" +
             "<p class='project-link'><b>Result:</b></p> Users loved the product. It eliminated hours of work with just a few clicks.",
         embed: "<div class=\"project-image-carousel\" >" +
@@ -66,6 +66,7 @@ const projects = [
             "<li>Faced the \"cold start\" problem. Who wants to use a network driven app when your friends are not already using it?</li></ul>" +
             "<p><b>Key learnings:</b></p><ul>" +
             "<li>The number one critisism was that the map was boring. Led me down a rabbit hole of learning about map APIs which is much deeper than you would think.</li>" +
+            "<li>Happy I did not spend weeks on potential features. Because by launching quickly I could gather that there was no real traction for the idea, so I could move on to other projects.</li>" +
             "<li>I learned a lot about the importance of network effects and how they can be a challenge to overcome.</li></ul>" +
             "<p class='project-link'><b>View the project:</b></p>" +
             "<a href='https://github.com/MrBisp/Hungry-Homies' target='_blank'>Github Repo</a>",
