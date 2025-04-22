@@ -9,7 +9,7 @@ const projects = [
             "<p><b>Key learnings and reflections:</b></p><ul>" +
             "<li>Was surprised by how many things came out of the box with Rails, like authentication, fast performance, and built-in testing.</li>" +
             "<li>I have never experienced a framework leaning so much into naming conventions. Surprised me when references worked without imports due to naming conventions. </li>" +
-            "<li>While I did not have experience while Rails or Ruby before, many of the concepts felt similar to other languages I have used. I am sure I will be able to pick it up quickly.</li></ul>" +
+            "<li>While I did not have experience with Rails or Ruby before, many of the concepts felt similar to other languages I have used. I am sure I will be able to pick it up quickly.</li></ul>" +
             "<p class='project-link'><b>Check it out: </b></p>" +
             "<a href='https://github.com/MrBisp/org_manager' target='_blank'>Github Repo</a> | " +
             "<a href='http://134.199.189.14' target='_blank'>Live Application</a>",
@@ -40,11 +40,11 @@ const projects = [
             "referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
     },
     {
-        name: "Project-Employee Matching",
+        name: "Project-Employee Matching (from my previous job)",
         description: "<b>The challenge:</b> Customers wasted hours reading PDFs to match employees to projects. The existing method was slow, frustrating, and manual." +
             "<p><b>My approach:</b></p><ul>" +
             "<li>Shaped an AI-driven prototype using OpenAI's API to extract structured data from unstructured PDFs.</li>" +
-            "<li>Built a basic Next.js prototype to validate feasibility and usability. Handed it over to the developers who built the final product.</li>" +
+            "<li>I Built a basic Next.js prototype to validate feasibility and usability. Handed it over to the developers who built the final product.</li>" +
             "<li>Collaborated closely with designer and developer. I lead the technical direction, including designing the data flow.</li></ul>" +
             "<p><b>Key learnings and considerations:</b></p><ul>" +
             "<li>How to work with new AI models to create simple products that would have been impossible just a few years ago.</li>" +

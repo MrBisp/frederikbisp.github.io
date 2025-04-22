@@ -7,7 +7,7 @@ const cv = [
                 position: "Product & Onboarding Manager",
                 startDate: "August 2024",
                 endDate: "December 2024",
-                description: "Youandx is a platform for keynote speakers. We also developed a customer side, allowing customers to get an overview of their employees' skills.",
+                description: "Youandx is a platform for keynote speakers. We built a customer-facing web application that provided companies with a centralized overview of their employees’ skill sets.",
                 items: [
                     "Launched new features based on data insights from my PowerBI dashboards, driving a <b>45% increase in Monthly Active Users</b> over six months.",
                     "Worked with the CEO to define the product strategy and roadmap.",
@@ -22,7 +22,7 @@ const cv = [
                 endDate: "August 2024",
                 description: "Worked as the product owner in the scrum team, and was responsible for the product roadmap.",
                 items: [
-                    "<b>Implemented fixed time, variable scope.</b> It finally allowed us to launch on time, which made my CEO very happy.",
+                    "<b>Implemented fixed time, variable scope.</b> It finally allowed us to launch on time, which made us all very satisfied.",
                     "Automated monthly supplier analytics emails, reducing monthly churn by 28% and establishing them as a major retention driver.",
                     "Optimized onboarding processes for speakers, <b>increasing signup conversion rates from 1.16% to 5.4%.</b>",
                     "Led all of the development and shaping. I also wrote user stories."
@@ -57,7 +57,8 @@ const cv = [
                     "We made a few small full-stack projects - all of them using HTML, CSS and JavaScript. Express backend, and MongoDB (I would have picked an SQL db, but not allowed for some reason) as database.",
                     "Coded an app in React Native for a class, and got top grades for it.",
                     "Learned about microeconomics and how it relates to software development.",
-                    "My bachelor thesis was about analyzing a Danish platform company, and suggesting strategies for growth."
+                    "My bachelor thesis was about analyzing a Danish platform company, and suggesting strategies for growth.",
+                    "Awarded geek of the class out of 120 students."
                 ]
             }
         ]
